@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 7.4.3.2 (Linux)"/>
-	<meta name="created" content="00:00:00"/>
-	<meta name="changed" content="00:00:00"/>
-	<style type="text/css">
-		@page { size: 8.27in 11.69in; margin: 0.79in }
-		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
-		pre { background: transparent }
-		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
-		pre.cjk { font-family: "NSimSun", monospace; font-size: 10pt }
-		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
-	</style>
-</head>
-<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western"><iframe src='htpps://webchat.botframework.com/embed/healthbot-hi4b4bu?s=xymbhYO-Stw.bSmVCR3wV5xNNd5T7XnoV2OoCjTnlK982Jv_WgALrRM' style='min-width:400px;width:100%;min-height:500px;'></iframe></pre>
+<body>
+  <iframe id="chat" style="width: 400px; height: 400px;" src=''></iframe>
 </body>
+<script>
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', "https://webchat.botframework.com/api/tokens", true);
+    xhr.setRequestHeader('Authorization', 'BotConnector ' + 'dQZmxT09X-4.cEPvRM9s3WKlKxjT56tMRXPN9Qh-qVXYYza7T8gDnhM');
+    xhr.send();
+    xhr.onreadystatechange = processRequest;
+
+    function processRequest(e) {
+      if (xhr.readyState == 4  && xhr.status == 200) {
+        var response = JSON.parse(xhr.responseText);
+        document.getElementById("chat").src="https://webchat.botframework.com/embed/healthbot-hi4b4bu?t="+response
+      }
+    }
+
+  </script>
 </html>
