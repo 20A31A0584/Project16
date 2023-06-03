@@ -10,9 +10,8 @@ This is a web based application developed for skin care routine for all skin typ
 
 ## AZURE TECHNOLOGIES USED FOR PROJECT
 
-
--STATIC WEB APPS
--HEALTH BOT
+-Static web apps
+-Health bot
 
 ## Features and Functionalities 😃
 
