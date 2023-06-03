@@ -8,10 +8,10 @@ This is a web based application developed for skin care routine for all skin typ
 **Project Link** - https://brave-rock-028348f00.3.azurestaticapps.net
 **project demo video link**-
 
-## AZURE TECHNOLOGIES USED FOR PROJECT
+## Azure technologies used for project
 
--Static web apps
--Health bot
+- Static web apps
+- Health bot
 
 ## Features and Functionalities 😃
 
