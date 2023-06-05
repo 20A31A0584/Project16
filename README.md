@@ -6,7 +6,8 @@ This is a web based application developed for skin care routine for all skin typ
 
 
 **Project Link** - https://brave-rock-028348f00.3.azurestaticapps.net
-**project demo video link**-
+
+**project demo video link** - https://youtu.be/BE9GfxQWauU 
 
 ## Azure technologies used for project
 
